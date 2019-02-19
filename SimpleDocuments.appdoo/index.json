@@ -33,10 +33,12 @@
     "viewControllerIDs" : [
       "UIViewController1",
       "UIViewController763826bedff84e3a9dc0ea0f9080a8a4",
+      "UIViewController76b85ef8c33549949fb1f44617912e3f",
+      "UIViewController7d64511de92c4336a91ead4046b22f22",
+      "UIViewControllerc0611572d69249d1b753a3dce876fece",
       "UIViewControllerc0a8007db12140c6ba79224c8296c39d",
       "UIViewControllerc76ef5722aef4b83b502ee8e6e2e7a49",
-      "UIViewController120f2198518d4c8387cfb6ea72ce6915",
-      "UIViewControllerc0611572d69249d1b753a3dce876fece"
+      "UIViewController120f2198518d4c8387cfb6ea72ce6915"
     ],
     "$type" : "UITabBarController",
     "$domain" : "appdoo.iOS"
@@ -45,8 +47,8 @@
     {
       "$id" : "Screen1",
       "positionOnOverview" : {
-        "top" : 184,
-        "left" : -903
+        "top" : 181,
+        "left" : -1159
       },
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "v_separateStatusBar" : false,
@@ -58,7 +60,33 @@
         "height" : 568
       },
       "hasCustomInterfaceOrientations" : false,
-      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "objects" : [
+        {
+          "$type" : "CSVDataSource",
+          "location" : "local",
+          "URLRequest" : {
+            "$type" : "URLRequest",
+            "$domain" : "Core"
+          },
+          "$id" : "CSVDataSource84aeea83bcca46acb6ade224a53856c4",
+          "columnNames" : [
+            "Planets",
+            "Wikipedia"
+          ],
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appdoo"
+          },
+          "$domain" : "info.appdoo-mac",
+          "localData" : "Planets;Wikipedia\r\nEarth;https:\/\/en.wikipedia.org\/wiki\/Earth\r\nJupiter;https:\/\/en.wikipedia.org\/wiki\/Jupiter\r\nMars;https:\/\/en.wikipedia.org\/wiki\/Mars\r\nMercury;https:\/\/en.wikipedia.org\/wiki\/Mercury_(planet)\r\nNeptune;https:\/\/en.wikipedia.org\/wiki\/Neptune\r\nSaturn;https:\/\/en.wikipedia.org\/wiki\/Saturn\r\nUranus;https:\/\/en.wikipedia.org\/wiki\/Uranus\r\nVenus;https:\/\/en.wikipedia.org\/wiki\/Venus",
+          "lastCheckWasValid" : 8,
+          "name" : "test.csv"
+        }
+      ],
       "viewController" : {
         "$id" : "UIViewController1",
         "tabBarItem" : {
@@ -70,8 +98,8 @@
         "title" : "PDF",
         "viewData" : {
           "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
           "$id" : "UIView6636",
-          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -135,12 +163,13 @@
           "hidden" : false,
           "userInteractionEnabled" : true,
           "name" : "Ansicht",
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
       },
       "v_showsInTabBar" : true,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
       "navigationBar" : {
         "$id" : "UINavigationBar7703",
         "position" : {
@@ -159,8 +188,9 @@
         },
         "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
-        "translucent" : false,
+        "dropsShadow" : true,
         "title" : "PDF",
+        "translucent" : false,
         "heightIsEditable" : false,
         "size" : {
           "width" : 320,
@@ -183,8 +213,8 @@
     {
       "$id" : "Scene8c1681e9f8e246dda0f620a7709365a0",
       "positionOnOverview" : {
-        "top" : 184,
-        "left" : -552
+        "top" : 181,
+        "left" : -800
       },
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "v_separateStatusBar" : false,
@@ -208,7 +238,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView64f7086cbef34e2fb04c70db2ea54627",
-          "scrollLeft" : 0,
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -271,7 +301,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -319,8 +349,8 @@
     {
       "$id" : "Scene3e0c10db1d8942619f50efcb9a3b2402",
       "positionOnOverview" : {
-        "top" : 184,
-        "left" : -203
+        "top" : 181,
+        "left" : 608
       },
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "v_separateStatusBar" : false,
@@ -342,8 +372,8 @@
         "title" : "RTF",
         "viewData" : {
           "isExpandedInEditorOutline" : true,
-          "scrollLeft" : 0,
           "$id" : "SceneRootViewfaa54cda431e45849d84682f716332a7",
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -406,7 +436,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -454,8 +484,8 @@
     {
       "$id" : "Scene8c463e87d2774d119e588581a8500687",
       "positionOnOverview" : {
-        "top" : 184,
-        "left" : 144
+        "top" : 181,
+        "left" : 966
       },
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "v_separateStatusBar" : false,
@@ -478,7 +508,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView46ea566a2a244630bcc5f505e244d425",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -541,7 +571,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -589,8 +619,8 @@
     {
       "$id" : "Scenece3ff0e28483446ab9308f5fc6618805",
       "positionOnOverview" : {
-        "top" : 184,
-        "left" : 496
+        "top" : 181,
+        "left" : 1317
       },
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "v_separateStatusBar" : false,
@@ -613,7 +643,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView04c925a614eb4f469efd126e3d1ea9eb",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -676,7 +706,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -724,8 +754,8 @@
     {
       "$id" : "Scened700ff19b28545caadef4f478728bcc2",
       "positionOnOverview" : {
-        "top" : 184,
-        "left" : 850
+        "top" : 181,
+        "left" : 250
       },
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "v_separateStatusBar" : false,
@@ -748,7 +778,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView1a950fa0c06449da99aec5c8186eed39",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -808,7 +838,7 @@
           "scrollTop" : 0,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -844,6 +874,278 @@
             "$type" : "UINavigationItem",
             "$domain" : "appdoo.iOS",
             "$id" : "UINavigationItem37ccc45a263549e59d64c4fc5a8b8846"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scenef6ecc80148f54527902e6b24e14226fd",
+      "positionOnOverview" : {
+        "top" : 181,
+        "left" : -452
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "viewController" : {
+        "$id" : "UIViewController76b85ef8c33549949fb1f44617912e3f",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem233be8de4c8d462f9802c28e0fd6bda9",
+          "title" : "Numbers",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "Numbers",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootView06d013543de74279bdd9bc73a4c499da",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "GenericViewPlugIn60895562af51437e96ec02152ed6f4da",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 455
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "pluginIdentifier" : "info.appdoo-mac.DocumentViewer",
+              "propertyValues" : {
+                "documentURLs" : "ResourceReference78e17481e39840aa965b448a93a11b56"
+              },
+              "transform" : "",
+              "heightIsEditable" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "alpha" : 1,
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "GenericViewPlugIn"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBar21f6030c43a141ce908adbd90253a3c4",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "dropsShadow" : true,
+        "title" : "Numbers",
+        "translucent" : false,
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItemd0caac9b8acd47828e822bffb9aa3420"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scene69c3845801f541219d4cc60197461e9d",
+      "positionOnOverview" : {
+        "top" : 178,
+        "left" : -100
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "viewController" : {
+        "$id" : "UIViewController7d64511de92c4336a91ead4046b22f22",
+        "tabBarItem" : {
+          "$id" : "UITabBarItemab47753d684348298d8418057d5b0ab0",
+          "title" : "Keynote",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "Keynote",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootViewe16da5faffad4dbeba5174bce41c47f2",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "GenericViewPlugIn3297ece51ed6404baa792913118fd1f8",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 455
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "pluginIdentifier" : "info.appdoo-mac.DocumentViewer",
+              "propertyValues" : {
+                "documentURLs" : "ResourceReference91dcd436dc9a43c4b2d45eed581794f4"
+              },
+              "transform" : "",
+              "heightIsEditable" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "alpha" : 1,
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "GenericViewPlugIn"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBaree9263d9e8b24542825d4b93e92b8b92",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Keynote",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItemaa499103380b4a6da0cb1d3f626b5b37"
           }
         ],
         "hidden" : false,
@@ -917,7 +1219,11 @@
         "Scenece3ff0e28483446ab9308f5fc6618805",
         "Scened700ff19b28545caadef4f478728bcc2",
         "Screen1",
-        "Scene3e0c10db1d8942619f50efcb9a3b2402"
+        "Scene3e0c10db1d8942619f50efcb9a3b2402",
+        "Screen1",
+        "Scenef6ecc80148f54527902e6b24e14226fd",
+        "Scene69c3845801f541219d4cc60197461e9d",
+        "Screen1"
       ],
       "inspectorCollapsedGroups" : [
         "UILabelShadow",
@@ -931,7 +1237,7 @@
       "inspectorIsVisible" : true,
       "elementListIsVisible" : true,
       "globalObjectsNodeIsExpandedInEditorOutline" : true,
-      "historyStackPosition" : 15
+      "historyStackPosition" : 19
     },
     "hidesStatusBarOnLaunch" : 0,
     "editorVersion" : 363,
@@ -940,22 +1246,22 @@
     "lastObjectID" : 10041,
     "simulatedSystemVersion" : 7,
     "supportedInterfaceOrientations" : 6,
-    "overviewAppearance" : {
-      "contentScale" : 0.33000000000000002
-    },
+    "description" : "Tabbed App (iOS Universal)",
     "deviceProfile" : "iPhone-Widescreen",
     "appleAppBundlePrefix" : "",
     "version" : "1.0",
     "defaultLanguage" : "en",
     "targetedDeviceFamily" : "iOS-Universal",
     "appleAppCategory" : "",
-    "editedObject" : "Scene3e0c10db1d8942619f50efcb9a3b2402",
+    "editedObject" : "Screen1",
     "projectID" : "00C479AC-696A-4C29-98E0-020C74D2C29A-7253-000008CCD780CE92",
     "companyName" : "MAMPGmbH",
     "windowFrame" : "285 91 960 640 0 0 1440 878 ",
     "windowIsFullScreen" : false,
     "rootInstance" : "TabBarController",
-    "description" : "Tabbed App (iOS Universal)"
+    "overviewAppearance" : {
+      "contentScale" : 0.33000000000000002
+    }
   },
   "fileReferences" : [
     {
@@ -985,31 +1291,6 @@
     },
     {
       "$type" : "ResourceReference",
-      "contentType" : "application\/x-iwork-pages-sffpages",
-      "$id" : "ResourceReferencebf48c99e9b674771ab22f4a36a494b8e",
-      "size" : 81882,
-      "resourceID" : "EBCBBD15-C2F1-4DDA-91DC-A08496909ADA-5986-000017A3F08C2847.pages",
-      "$domain" : "appdoo",
-      "shouldSync" : true,
-      "actionInfo" : {
-        "type" : "objectAction",
-        "modalTransitionStyle" : "-1",
-        "actionType" : "objectAction",
-        "objectActionID" : "",
-        "$type" : "ActionInfo",
-        "$domain" : "appdoo"
-      },
-      "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.pages",
-        "relativePath" : "..\/..\/test.pages",
-        "modificationTime" : 1550492856.9582586,
-        "$type" : "FileInfo",
-        "$domain" : "appdoo"
-      },
-      "name" : "test.pages"
-    },
-    {
-      "$type" : "ResourceReference",
       "contentType" : "image\/png",
       "$id" : "ResourceReferenceb69b7a1f1dea4064bbf1139b1942cb9d",
       "size" : 53747,
@@ -1032,6 +1313,31 @@
         "$domain" : "appdoo"
       },
       "name" : "test.png"
+    },
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "application\/x-iwork-pages-sffpages",
+      "$id" : "ResourceReferencebf48c99e9b674771ab22f4a36a494b8e",
+      "size" : 81882,
+      "resourceID" : "EBCBBD15-C2F1-4DDA-91DC-A08496909ADA-5986-000017A3F08C2847.pages",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appdoo"
+      },
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.pages",
+        "relativePath" : "..\/..\/test.pages",
+        "modificationTime" : 1550492856.9582586,
+        "$type" : "FileInfo",
+        "$domain" : "appdoo"
+      },
+      "name" : "test.pages"
     },
     {
       "$type" : "ResourceReference",
@@ -1106,6 +1412,54 @@
         "$domain" : "appdoo"
       },
       "name" : "test.rtf"
+    },
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "application\/x-iwork-numbers-sffnumbers",
+      "$id" : "ResourceReference78e17481e39840aa965b448a93a11b56",
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appdoo"
+      },
+      "resourceID" : "4133FC30-F1D1-4688-A9B7-1B713B482448-1575-00000415915E6832.numbers",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/appdoo-SimpleDocuments\/Resources\/test.numbers",
+        "relativePath" : "..\/Resources\/test.numbers",
+        "modificationTime" : 1550569358.8433685,
+        "$type" : "FileInfo",
+        "$domain" : "appdoo"
+      },
+      "name" : "test.numbers"
+    },
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "application\/x-iwork-keynote-sffkey",
+      "$id" : "ResourceReference91dcd436dc9a43c4b2d45eed581794f4",
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appdoo"
+      },
+      "resourceID" : "C3C32616-0856-4580-B108-21F1631A46FA-1575-0000049058A9FA41.key",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/appdoo-SimpleDocuments\/Resources\/test.key",
+        "relativePath" : "..\/Resources\/test.key",
+        "modificationTime" : 1550570092.5429754,
+        "$type" : "FileInfo",
+        "$domain" : "appdoo"
+      },
+      "name" : "test.key"
     }
   ]
 }
