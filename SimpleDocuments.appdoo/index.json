@@ -1,0 +1,1111 @@
+{
+  "$type" : "Project",
+  "tabBarController" : {
+    "$id" : "TabBarController",
+    "tabBar" : {
+      "$type" : "UITabBar",
+      "position" : {
+        "top" : 519,
+        "left" : 0
+      },
+      "hidden" : false,
+      "frame" : {
+        "origin" : {
+          "x" : 0,
+          "y" : 519
+        },
+        "size" : {
+          "width" : 320,
+          "height" : 49
+        }
+      },
+      "$id" : "UITabBar6007",
+      "barStyle" : 0,
+      "heightIsEditable" : false,
+      "$domain" : "appdoo.iOS",
+      "userInteractionEnabled" : true,
+      "autoresizingMask" : 2,
+      "size" : {
+        "width" : 320,
+        "height" : 49
+      }
+    },
+    "viewControllerIDs" : [
+      "UIViewController1",
+      "UIViewController763826bedff84e3a9dc0ea0f9080a8a4",
+      "UIViewControllerc0a8007db12140c6ba79224c8296c39d",
+      "UIViewControllerc76ef5722aef4b83b502ee8e6e2e7a49",
+      "UIViewController120f2198518d4c8387cfb6ea72ce6915",
+      "UIViewControllerc0611572d69249d1b753a3dce876fece"
+    ],
+    "$type" : "UITabBarController",
+    "$domain" : "appdoo.iOS"
+  },
+  "scenes" : [
+    {
+      "$id" : "Screen1",
+      "positionOnOverview" : {
+        "top" : 184,
+        "left" : -903
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "supportedInterfaceOrientations" : 2,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "viewController" : {
+        "$id" : "UIViewController1",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem9436",
+          "title" : "PDF",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "PDF",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "$id" : "UIView6636",
+          "$type" : "SceneRootView",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(255,255,255,1.00)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "GenericViewPlugInf1679c3353204a68a459d48d2db70edf",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 455
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "pluginIdentifier" : "info.appdoo-mac.DocumentViewer",
+              "propertyValues" : {
+                "documentURLs" : "ResourceReference86420963b9ca4a7b884626bcc213dd9b"
+              },
+              "transform" : "",
+              "heightIsEditable" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "alpha" : 1,
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "GenericViewPlugIn"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "name" : "Ansicht",
+          "scrollLeft" : 0
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBar7703",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "PDF",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItem1"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scene8c1681e9f8e246dda0f620a7709365a0",
+      "positionOnOverview" : {
+        "top" : 184,
+        "left" : -552
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "viewController" : {
+        "$id" : "UIViewController763826bedff84e3a9dc0ea0f9080a8a4",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem37653fe3839748f3b99713c6bbc1a342",
+          "title" : "Pages",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "Pages",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "$id" : "SceneRootView64f7086cbef34e2fb04c70db2ea54627",
+          "scrollLeft" : 0,
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "GenericViewPlugIn4e42a88366a44891beb30406cd901029",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 455
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "pluginIdentifier" : "info.appdoo-mac.DocumentViewer",
+              "propertyValues" : {
+                "documentURLs" : "ResourceReferencebf48c99e9b674771ab22f4a36a494b8e"
+              },
+              "transform" : "",
+              "heightIsEditable" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "alpha" : 1,
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "GenericViewPlugIn"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBar47ad279c7f9d4824899cd61ccdf39a9e",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Pages",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItem5245790019e14aa9af63c64ffed57c7e"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scene3e0c10db1d8942619f50efcb9a3b2402",
+      "positionOnOverview" : {
+        "top" : 184,
+        "left" : -203
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "viewController" : {
+        "$id" : "UIViewControllerc0a8007db12140c6ba79224c8296c39d",
+        "tabBarItem" : {
+          "$id" : "UITabBarItemd63067d2335b44b3bd89f6ac0eff032a",
+          "title" : "RTF",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "RTF",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootViewfaa54cda431e45849d84682f716332a7",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "GenericViewPlugInbf9a860b7ae1424c8b5e6271590a6e0d",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 455
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "pluginIdentifier" : "info.appdoo-mac.DocumentViewer",
+              "propertyValues" : {
+                "documentURLs" : "ResourceReferencebb025a441f834c298e52ef7f295590d6"
+              },
+              "transform" : "",
+              "heightIsEditable" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "alpha" : 1,
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "GenericViewPlugIn"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBardeb6f1dbcf5f43b2a2c7f7c7c694e5ca",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "RTF",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItem4c50f2772eec4f6ab12c62978a42b44a"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scene8c463e87d2774d119e588581a8500687",
+      "positionOnOverview" : {
+        "top" : 184,
+        "left" : 144
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "viewController" : {
+        "$id" : "UIViewControllerc76ef5722aef4b83b502ee8e6e2e7a49",
+        "tabBarItem" : {
+          "$id" : "UITabBarItemc8fe82298eeb4cda998e244509552b35",
+          "title" : "PNG",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "PNG",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "$id" : "SceneRootView46ea566a2a244630bcc5f505e244d425",
+          "$type" : "SceneRootView",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "GenericViewPlugIn63c5124279df47d0a843adab528724f5",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 455
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "pluginIdentifier" : "info.appdoo-mac.DocumentViewer",
+              "propertyValues" : {
+                "documentURLs" : "ResourceReferenceb69b7a1f1dea4064bbf1139b1942cb9d"
+              },
+              "transform" : "",
+              "heightIsEditable" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "alpha" : 1,
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "GenericViewPlugIn"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "scrollLeft" : 0
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBar9037873aacac4fd5b399cb2695e7bc29",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "PNG",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItemf2dcf553c2254bb8be790e5d666fcd9a"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scenece3ff0e28483446ab9308f5fc6618805",
+      "positionOnOverview" : {
+        "top" : 184,
+        "left" : 496
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "viewController" : {
+        "$id" : "UIViewController120f2198518d4c8387cfb6ea72ce6915",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem7c0f9a34f976453d8356c86acff7da0a",
+          "title" : "JPG",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "JPG",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "$id" : "SceneRootView04c925a614eb4f469efd126e3d1ea9eb",
+          "$type" : "SceneRootView",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "GenericViewPlugIn3ce2fa65ba9c4108922d22a51828e9c6",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 455
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "pluginIdentifier" : "info.appdoo-mac.DocumentViewer",
+              "propertyValues" : {
+                "documentURLs" : "ResourceReference4bf55d2a6c2649e1bae1d6889b1d836d"
+              },
+              "transform" : "",
+              "heightIsEditable" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "alpha" : 1,
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "GenericViewPlugIn"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "scrollLeft" : 0
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBar726211f690544a83a1c1e0dbcf810e7a",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "JPG",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItemd8ec2d034fca40bc98b6447aaf121893"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Scened700ff19b28545caadef4f478728bcc2",
+      "positionOnOverview" : {
+        "top" : 184,
+        "left" : 850
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "viewController" : {
+        "$id" : "UIViewControllerc0611572d69249d1b753a3dce876fece",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem0bdc6380f1a0477ca67dbc8d5a8cc0c9",
+          "title" : "Word",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "Word",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "$id" : "SceneRootView1a950fa0c06449da99aec5c8186eed39",
+          "$type" : "SceneRootView",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgb(255, 255, 255)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "GenericViewPlugIn786840ba08b341a284e36c6204b271f8",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 455
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 18,
+              "pluginIdentifier" : "info.appdoo-mac.DocumentViewer",
+              "pluginVersion" : 1,
+              "propertyValues" : {
+                "documentURLs" : "ResourceReference4163af756b93428eb6098a9c1f6fb52a"
+              },
+              "heightIsEditable" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "hidden" : false,
+              "userInteractionEnabled" : true,
+              "$type" : "GenericViewPlugIn"
+            }
+          ],
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "scrollLeft" : 0
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBard42694654df74d6280828a2d5bae5d54",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Word",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItem37ccc45a263549e59d64c4fc5a8b8846"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    }
+  ],
+  "tabBarItemFont" : {
+    "$id" : "UIFont10031",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_",
+    "pointSize" : 10,
+    "$type" : "UIFont",
+    "$domain" : "appdoo.iOS"
+  },
+  "navigationBarFont" : {
+    "$id" : "UIFont10029",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_BOLD_",
+    "pointSize" : 17,
+    "$type" : "UIFont",
+    "$domain" : "appdoo.iOS"
+  },
+  "$domain" : "appdoo",
+  "metadata" : {
+    "launchImages" : {
+      "phone40" : {
+        "$type" : "ImageReference",
+        "$domain" : "appdoo",
+        "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5380.png"
+      },
+      "portrait" : {
+        "$type" : "ImageReference",
+        "$domain" : "appdoo",
+        "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5382.png"
+      },
+      "landscape" : {
+        "$type" : "ImageReference",
+        "$domain" : "appdoo",
+        "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5383.png"
+      }
+    },
+    "iconImage" : {
+      "$type" : "ImageReference",
+      "$domain" : "appdoo",
+      "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5381.png"
+    },
+    "editorAppearance" : {
+      "fileReferencesNodeIsExpandedInEditorOutline" : true,
+      "inspectorCurrentSegment" : 0,
+      "collapsedNewItemSections" : [
+
+      ],
+      "contentScale" : 1,
+      "historyStack" : [
+        "Screen1",
+        "Screen2",
+        "Screen3",
+        "Screen1",
+        "Scene8c1681e9f8e246dda0f620a7709365a0",
+        "Screen1",
+        "Scene8c1681e9f8e246dda0f620a7709365a0",
+        "Screen1",
+        "Scene3e0c10db1d8942619f50efcb9a3b2402",
+        "Scene8c463e87d2774d119e588581a8500687",
+        "Scenece3ff0e28483446ab9308f5fc6618805",
+        "Scene8c463e87d2774d119e588581a8500687",
+        "Scenece3ff0e28483446ab9308f5fc6618805",
+        "Scened700ff19b28545caadef4f478728bcc2",
+        "Screen1",
+        "Scene3e0c10db1d8942619f50efcb9a3b2402"
+      ],
+      "inspectorCollapsedGroups" : [
+        "UILabelShadow",
+        "UIScrollViewInsets",
+        "UITableViewMargin",
+        "UITableViewSeparatorInsets",
+        "FormProcessorEvents",
+        "FormProcessorAdvanced"
+      ],
+      "heightOfNewItemsList" : 373,
+      "inspectorIsVisible" : true,
+      "elementListIsVisible" : true,
+      "globalObjectsNodeIsExpandedInEditorOutline" : true,
+      "historyStackPosition" : 15
+    },
+    "hidesStatusBarOnLaunch" : 0,
+    "editorVersion" : 363,
+    "title" : "SimpleDocuments",
+    "formatVersion" : 363,
+    "lastObjectID" : 10041,
+    "simulatedSystemVersion" : 7,
+    "supportedInterfaceOrientations" : 6,
+    "overviewAppearance" : {
+      "contentScale" : 0.33000000000000002
+    },
+    "deviceProfile" : "iPhone-Widescreen",
+    "appleAppBundlePrefix" : "",
+    "version" : "1.0",
+    "defaultLanguage" : "en",
+    "targetedDeviceFamily" : "iOS-Universal",
+    "appleAppCategory" : "",
+    "editedObject" : "Scene3e0c10db1d8942619f50efcb9a3b2402",
+    "projectID" : "00C479AC-696A-4C29-98E0-020C74D2C29A-7253-000008CCD780CE92",
+    "companyName" : "MAMPGmbH",
+    "windowFrame" : "285 91 960 640 0 0 1440 878 ",
+    "windowIsFullScreen" : false,
+    "rootInstance" : "TabBarController",
+    "description" : "Tabbed App (iOS Universal)"
+  },
+  "fileReferences" : [
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "application\/pdf",
+      "$id" : "ResourceReference86420963b9ca4a7b884626bcc213dd9b",
+      "size" : 13308,
+      "resourceID" : "4857BA96-F9D7-45FD-BF19-63DF9D7972E6-5986-000017A3F0553611.pdf",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appdoo"
+      },
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.pdf",
+        "relativePath" : "..\/..\/test.pdf",
+        "modificationTime" : 1550492872.3192544,
+        "$type" : "FileInfo",
+        "$domain" : "appdoo"
+      },
+      "name" : "test.pdf"
+    },
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "application\/x-iwork-pages-sffpages",
+      "$id" : "ResourceReferencebf48c99e9b674771ab22f4a36a494b8e",
+      "size" : 81882,
+      "resourceID" : "EBCBBD15-C2F1-4DDA-91DC-A08496909ADA-5986-000017A3F08C2847.pages",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appdoo"
+      },
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.pages",
+        "relativePath" : "..\/..\/test.pages",
+        "modificationTime" : 1550492856.9582586,
+        "$type" : "FileInfo",
+        "$domain" : "appdoo"
+      },
+      "name" : "test.pages"
+    },
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "image\/png",
+      "$id" : "ResourceReferenceb69b7a1f1dea4064bbf1139b1942cb9d",
+      "size" : 53747,
+      "resourceID" : "31038DD6-E3CB-46E0-A4A0-7A0D3F812E7E-6851-000018B5DD61A85F.png",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appdoo"
+      },
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.png",
+        "relativePath" : "..\/..\/test.png",
+        "modificationTime" : 1550494025.8546782,
+        "$type" : "FileInfo",
+        "$domain" : "appdoo"
+      },
+      "name" : "test.png"
+    },
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "image\/jpeg",
+      "$id" : "ResourceReference4bf55d2a6c2649e1bae1d6889b1d836d",
+      "size" : 45487,
+      "resourceID" : "C14AA3E7-954C-48E3-BE02-A2F1119D54E6-6851-000018B5DD918CF0.jpg",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appdoo"
+      },
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.jpg",
+        "relativePath" : "..\/..\/test.jpg",
+        "modificationTime" : 1550494014.4408181,
+        "$type" : "FileInfo",
+        "$domain" : "appdoo"
+      },
+      "name" : "test.jpg"
+    },
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "$id" : "ResourceReference4163af756b93428eb6098a9c1f6fb52a",
+      "size" : 7515,
+      "resourceID" : "9759C351-07FD-4784-8877-D45841D53B47-6851-000018E38C7EF807.docx",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appdoo"
+      },
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.docx",
+        "relativePath" : "..\/..\/test.docx",
+        "modificationTime" : 1550494259.9231882,
+        "$type" : "FileInfo",
+        "$domain" : "appdoo"
+      },
+      "name" : "test.docx"
+    },
+    {
+      "$type" : "ResourceReference",
+      "contentType" : "text\/rtf",
+      "$id" : "ResourceReferencebb025a441f834c298e52ef7f295590d6",
+      "actionInfo" : {
+        "type" : "objectAction",
+        "modalTransitionStyle" : "-1",
+        "actionType" : "objectAction",
+        "objectActionID" : "",
+        "$type" : "ActionInfo",
+        "$domain" : "appdoo"
+      },
+      "resourceID" : "5A9FE02A-0921-4D5F-9367-FFD9AA326EFE-1193-000002D7537CB284.rtf",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
+      "originalFileInfo" : {
+        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.rtf",
+        "relativePath" : "..\/..\/test.rtf",
+        "modificationTime" : 1550568202.1113715,
+        "$type" : "FileInfo",
+        "$domain" : "appdoo"
+      },
+      "name" : "test.rtf"
+    }
+  ]
+}
