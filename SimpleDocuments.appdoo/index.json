@@ -210,7 +210,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView64f7086cbef34e2fb04c70db2ea54627",
-          "scrollLeft" : 0,
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -273,7 +273,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -345,7 +345,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootViewfaa54cda431e45849d84682f716332a7",
-          "scrollLeft" : 0,
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -408,7 +408,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -480,7 +480,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView46ea566a2a244630bcc5f505e244d425",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -543,7 +543,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -615,7 +615,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView04c925a614eb4f469efd126e3d1ea9eb",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -678,7 +678,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -750,7 +750,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView1a950fa0c06449da99aec5c8186eed39",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -810,7 +810,7 @@
           "scrollTop" : 0,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -883,7 +883,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView06d013543de74279bdd9bc73a4c499da",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -946,7 +946,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1018,7 +1018,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootViewe16da5faffad4dbeba5174bce41c47f2",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -1081,7 +1081,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1204,7 +1204,7 @@
         "FormProcessorEvents",
         "FormProcessorAdvanced"
       ],
-      "heightOfNewItemsList" : 373,
+      "heightOfNewItemsList" : 252,
       "inspectorIsVisible" : true,
       "elementListIsVisible" : true,
       "globalObjectsNodeIsExpandedInEditorOutline" : true,
@@ -1217,9 +1217,7 @@
     "lastObjectID" : 10041,
     "simulatedSystemVersion" : 7,
     "supportedInterfaceOrientations" : 6,
-    "overviewAppearance" : {
-      "contentScale" : 0.33000000000000002
-    },
+    "description" : "Tabbed App (iOS Universal)",
     "deviceProfile" : "iPhone-Widescreen",
     "appleAppBundlePrefix" : "",
     "version" : "1.0",
@@ -1232,7 +1230,9 @@
     "windowFrame" : "285 91 960 640 0 0 1440 878 ",
     "windowIsFullScreen" : false,
     "rootInstance" : "TabBarController",
-    "description" : "Tabbed App (iOS Universal)"
+    "overviewAppearance" : {
+      "contentScale" : 0.33000000000000002
+    }
   },
   "fileReferences" : [
     {
@@ -1240,7 +1240,7 @@
       "contentType" : "application\/pdf",
       "$id" : "ResourceReference86420963b9ca4a7b884626bcc213dd9b",
       "size" : 13308,
-      "resourceID" : "4857BA96-F9D7-45FD-BF19-63DF9D7972E6-5986-000017A3F0553611.pdf",
+      "resourceID" : "8973A9DB-076D-43F2-ADBA-FB26083EDA75-3813-00000CA54CB5F62A.pdf",
       "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
@@ -1252,8 +1252,8 @@
         "$domain" : "appdoo"
       },
       "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.pdf",
-        "relativePath" : "..\/..\/test.pdf",
+        "absolutePath" : "",
+        "relativePath" : "..\/Resources\/test.pdf",
         "modificationTime" : 1550492872.3192544,
         "$type" : "FileInfo",
         "$domain" : "appdoo"
@@ -1265,7 +1265,7 @@
       "contentType" : "image\/png",
       "$id" : "ResourceReferenceb69b7a1f1dea4064bbf1139b1942cb9d",
       "size" : 53747,
-      "resourceID" : "31038DD6-E3CB-46E0-A4A0-7A0D3F812E7E-6851-000018B5DD61A85F.png",
+      "resourceID" : "6114A47E-027C-495F-A6B4-3E93B69C3447-3813-00000CA6F628E346.png",
       "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
@@ -1277,8 +1277,8 @@
         "$domain" : "appdoo"
       },
       "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.png",
-        "relativePath" : "..\/..\/test.png",
+        "absolutePath" : "",
+        "relativePath" : "..\/Resources\/test.png",
         "modificationTime" : 1550494025.8546782,
         "$type" : "FileInfo",
         "$domain" : "appdoo"
@@ -1290,7 +1290,7 @@
       "contentType" : "application\/x-iwork-pages-sffpages",
       "$id" : "ResourceReferencebf48c99e9b674771ab22f4a36a494b8e",
       "size" : 81882,
-      "resourceID" : "EBCBBD15-C2F1-4DDA-91DC-A08496909ADA-5986-000017A3F08C2847.pages",
+      "resourceID" : "75184969-B49B-4680-9125-EF592BBB6789-3813-00000CA9128F65BA.pages",
       "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
@@ -1302,8 +1302,8 @@
         "$domain" : "appdoo"
       },
       "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.pages",
-        "relativePath" : "..\/..\/test.pages",
+        "absolutePath" : "",
+        "relativePath" : "..\/Resources\/test.pages",
         "modificationTime" : 1550492856.9582586,
         "$type" : "FileInfo",
         "$domain" : "appdoo"
@@ -1315,7 +1315,7 @@
       "contentType" : "image\/jpeg",
       "$id" : "ResourceReference4bf55d2a6c2649e1bae1d6889b1d836d",
       "size" : 45487,
-      "resourceID" : "C14AA3E7-954C-48E3-BE02-A2F1119D54E6-6851-000018B5DD918CF0.jpg",
+      "resourceID" : "B4A98EC8-15D6-42E4-9FB4-0DBDF8249EF1-3813-00000CAB2A4ED1B1.jpg",
       "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
@@ -1327,8 +1327,8 @@
         "$domain" : "appdoo"
       },
       "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.jpg",
-        "relativePath" : "..\/..\/test.jpg",
+        "absolutePath" : "",
+        "relativePath" : "..\/Resources\/test.jpg",
         "modificationTime" : 1550494014.4408181,
         "$type" : "FileInfo",
         "$domain" : "appdoo"
@@ -1340,7 +1340,7 @@
       "contentType" : "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "$id" : "ResourceReference4163af756b93428eb6098a9c1f6fb52a",
       "size" : 7515,
-      "resourceID" : "9759C351-07FD-4784-8877-D45841D53B47-6851-000018E38C7EF807.docx",
+      "resourceID" : "D76E1896-123F-421B-BAE9-F072CF33125D-3813-00000CAC91FF80D7.docx",
       "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
@@ -1352,8 +1352,8 @@
         "$domain" : "appdoo"
       },
       "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.docx",
-        "relativePath" : "..\/..\/test.docx",
+        "absolutePath" : "",
+        "relativePath" : "..\/Resources\/test.docx",
         "modificationTime" : 1550494259.9231882,
         "$type" : "FileInfo",
         "$domain" : "appdoo"
@@ -1364,6 +1364,10 @@
       "$type" : "ResourceReference",
       "contentType" : "text\/rtf",
       "$id" : "ResourceReferencebb025a441f834c298e52ef7f295590d6",
+      "size" : 622,
+      "resourceID" : "D4C2DCD8-4E3A-4873-9F60-D2CDEFD850DB-3813-00000CAD97A52D4B.rtf",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
         "modalTransitionStyle" : "-1",
@@ -1372,12 +1376,9 @@
         "$type" : "ActionInfo",
         "$domain" : "appdoo"
       },
-      "resourceID" : "5A9FE02A-0921-4D5F-9367-FFD9AA326EFE-1193-000002D7537CB284.rtf",
-      "$domain" : "appdoo",
-      "shouldSync" : true,
       "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/test.rtf",
-        "relativePath" : "..\/..\/test.rtf",
+        "absolutePath" : "",
+        "relativePath" : "..\/Resources\/test.rtf",
         "modificationTime" : 1550568202.1113715,
         "$type" : "FileInfo",
         "$domain" : "appdoo"
@@ -1388,6 +1389,10 @@
       "$type" : "ResourceReference",
       "contentType" : "application\/x-iwork-numbers-sffnumbers",
       "$id" : "ResourceReference78e17481e39840aa965b448a93a11b56",
+      "size" : 141074,
+      "resourceID" : "4133FC30-F1D1-4688-A9B7-1B713B482448-1575-00000415915E6832.numbers",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
         "modalTransitionStyle" : "-1",
@@ -1396,11 +1401,8 @@
         "$type" : "ActionInfo",
         "$domain" : "appdoo"
       },
-      "resourceID" : "4133FC30-F1D1-4688-A9B7-1B713B482448-1575-00000415915E6832.numbers",
-      "$domain" : "appdoo",
-      "shouldSync" : true,
       "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/appdoo-SimpleDocuments\/Resources\/test.numbers",
+        "absolutePath" : "",
         "relativePath" : "..\/Resources\/test.numbers",
         "modificationTime" : 1550569358.8433685,
         "$type" : "FileInfo",
@@ -1412,6 +1414,10 @@
       "$type" : "ResourceReference",
       "contentType" : "application\/x-iwork-keynote-sffkey",
       "$id" : "ResourceReference91dcd436dc9a43c4b2d45eed581794f4",
+      "size" : 318840,
+      "resourceID" : "C3C32616-0856-4580-B108-21F1631A46FA-1575-0000049058A9FA41.key",
+      "$domain" : "appdoo",
+      "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
         "modalTransitionStyle" : "-1",
@@ -1420,11 +1426,8 @@
         "$type" : "ActionInfo",
         "$domain" : "appdoo"
       },
-      "resourceID" : "C3C32616-0856-4580-B108-21F1631A46FA-1575-0000049058A9FA41.key",
-      "$domain" : "appdoo",
-      "shouldSync" : true,
       "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/SimpleDocuments\/appdoo-SimpleDocuments\/Resources\/test.key",
+        "absolutePath" : "",
         "relativePath" : "..\/Resources\/test.key",
         "modificationTime" : 1550570092.5429754,
         "$type" : "FileInfo",
